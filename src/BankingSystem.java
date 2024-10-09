@@ -13,14 +13,14 @@ import java.sql.SQLException;
 
 public class BankingSystem extends JFrame {
 
+    //MySQL server connection
     private Connection getConnection() throws Exception {
-        String url = "jdbc:mysql://localhost:3306/banking_system"; // Update if your MySQL server is not local
-        String user = "root"; // replace with your MySQL username
-        String password = "1234"; // replace with your MySQL password
+        String url = "jdbc:mysql://localhost:3306/banking_system";
+        String user = "root";
+        String password = "1234";
         return DriverManager.getConnection(url, user, password);
     }
     
-
     // GUI components
     private JTextField accountNameField; //to enter name
     private JTextField balanceField; //to enter initial balance
@@ -30,8 +30,8 @@ public class BankingSystem extends JFrame {
     // Account attributes
     private HashMap<String, Double> accounts = new HashMap<>();  // To store multiple accounts
     private String currentAccount = "";  // The currently selected account
-    private final String DATA_FILE = "accountsData.txt"; // File to save the data
 
+    //GUI
     public BankingSystem() {
         // Frame settings
         setTitle("Simple Banking System");
