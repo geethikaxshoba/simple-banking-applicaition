@@ -58,3 +58,5 @@ The Simple Banking System is a Java-based desktop application that allows users 
 <img src="https://github.com/user-attachments/assets/2fb48d4d-ba74-435b-8aaf-af5e49f6fa3f" alt="Withdraw Amount" width="500"/>
 <img src="https://github.com/user-attachments/assets/ee1a8e62-00ab-42c6-9285-479a5d830441" alt="Withdraw Confirmation" width="500"/>
 
+## MySQL Workbench
+<img src="https://github.com/user-attachments/assets/a20d668b-cf97-49b2-94c3-3cd37c0ec922" alt="Withdraw Confirmation" width="500"/>
